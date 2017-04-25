@@ -1,0 +1,52 @@
+2017-04-24 08:07:42,990 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2017-04-24 08:07:42,991 DEBUG    root            Running gcloud.init with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.init', usage=None, description='Initialize or reinitialize gcloud.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7fcb9cd1e090>, command_path=['gcloud', 'init'], configuration=None, console_only=False, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, obsolete_project_arg=None, project=None, quiet=None, skip_diagnostics=False, trace_email=None, trace_log=None, trace_token=None, user_output_enabled=None, verbosity='warning', version=None).
+2017-04-24 08:07:42,991 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2017-04-24 08:07:42,993 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2017-04-24 08:07:42,993 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2017-04-24 08:07:42,993 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2017-04-24 08:07:42,993 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2017-04-24 08:07:42,993 INFO     ___FILE_ONLY___ Checking network connection...
+2017-04-24 08:07:43,958 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2017-04-24 08:07:43,959 INFO     ___FILE_ONLY___ Network diagnostic (1/1 checks) passed.
+
+
+2017-04-24 08:07:43,960 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2017-04-24 08:07:43,972 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'list']
+2017-04-24 08:07:43,973 INFO     root            Executing: [gcloud auth list]
+2017-04-24 08:07:43,974 DEBUG    root            Running gcloud.auth.list with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.auth.list', usage=None, description='Lists accounts whose credentials have been obtained using `gcloud init`,\n`gcloud auth login` and `gcloud auth activate-service-account`, and shows\nwhich account is active. The active account is used by gcloud and other Cloud\nSDK tools to access Google Cloud Platform.\n\n## EXAMPLES\n\nTo list the active account name:\n\n  $ gcloud auth list --filter=status:ACTIVE --format="value(account)"\n\nTo list the inactive account names with prefix `test`:\n\n  $ gcloud auth list --filter="-status:ACTIVE account:test*" --format="value(account)"', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7fcb9c842710>, command_path=['gcloud', 'auth', 'list'], configuration=None, credential_file_override=None, document=None, filter=None, filter_account=None, flatten=None, format=None, h=None, help=None, http_timeout=None, limit=None, log_http=None, page_size=None, project=None, quiet=None, sort_by=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', verbosity='none', version=None).
+2017-04-24 08:07:43,976 DEBUG    oauth2client.contrib.multistore_file Initializing empty multistore file
+2017-04-24 08:07:43,980 INFO     root            Display disabled.
+2017-04-24 08:07:43,981 DEBUG    root            SDK update checks are disabled.
+2017-04-24 08:07:49,866 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2017-04-24 08:07:49,873 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2017-04-24 08:07:49,874 INFO     root            Executing: [gcloud config set account 2034944256-compute@developer.gserviceaccount.com]
+2017-04-24 08:07:49,874 DEBUG    root            Running gcloud.config.set with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.config.set', usage=None, description='By default, sets the property in your active configuration only. Use the\n`--installation` flag to set the property across all configurations. See\n`gcloud topic configurations` for more information.\n\n## AVAILABLE PROPERTIES\n\n{properties}\n\n## EXAMPLES\n\nTo set the project property in the core section, run:\n\n  $ {command} project myProject\n\nTo set the zone property in the compute section, run:\n\n  $ {command} compute/zone zone3', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7fcb97fdb390>, command_path=['gcloud', 'config', 'set'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, installation=False, log_http=None, project=None, property='account', quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', value='2034944256-compute@developer.gserviceaccount.com', verbosity='none', version=None).
+2017-04-24 08:07:49,875 INFO     ___FILE_ONLY___ Updated property [core/account].
+
+2017-04-24 08:07:49,875 INFO     root            Display disabled.
+2017-04-24 08:07:49,876 DEBUG    root            SDK update checks are disabled.
+2017-04-24 08:07:49,876 INFO     ___FILE_ONLY___ You are logged in as: [2034944256-compute@developer.gserviceaccount.com].
+
+
+2017-04-24 08:07:50,667 DEBUG    root            Failed to execute projects list: <class 'apitools.base.py.exceptions.HttpError'>, HttpError accessing <https://cloudresourcemanager.googleapis.com/v1/projects?alt=json&pageSize=100>: response: <{'status': '403', 'content-length': '138', 'x-xss-protection': '1; mode=block', 'x-content-type-options': 'nosniff', 'transfer-encoding': 'chunked', 'vary': 'Origin, X-Origin, Referer', 'server': 'ESF', '-content-encoding': 'gzip', 'cache-control': 'private', 'date': 'Mon, 24 Apr 2017 08:07:50 GMT', 'x-frame-options': 'SAMEORIGIN', 'content-type': 'application/json; charset=UTF-8', 'www-authenticate': 'Bearer realm="https://accounts.google.com/", error="insufficient_scope", scope="https://www.googleapis.com/auth/cloudplatformprojects https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/cloud-platform.read-only https://www.googleapis.com/auth/cloud-platform"'}>, content <{
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+>, <traceback object at 0x7fcb97fc7ab8>
+2017-04-24 08:08:05,547 INFO     ___FILE_ONLY___ 
+
+Command killed by keyboard interrupt
+
+
