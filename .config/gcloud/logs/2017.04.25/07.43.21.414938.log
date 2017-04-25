@@ -1,0 +1,6 @@
+2017-04-25 07:43:21,415 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2017-04-25 07:43:21,417 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'git_helper']
+2017-04-25 07:43:21,418 DEBUG    root            Running gcloud.auth.git-helper with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.auth.git-helper', usage=None, description='A git credential helper to provide access to Google git repositories.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7f57a94082d0>, command_path=['gcloud', 'auth', 'git-helper'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, ignore_unknown=True, log_http=None, method='get', project=None, quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled=None, verbosity='warning', version=None).
+2017-04-25 07:43:21,442 INFO     root            Display format "default".
+2017-04-25 07:43:21,442 DEBUG    root            SDK update checks are disabled.
+2017-04-25 07:43:21,448 DEBUG    root            Metrics reporting process started...

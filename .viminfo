@@ -11,8 +11,8 @@
 $
 
 # Command Line History (newest to oldest):
-:q
 :x
+:q
 :q!
 
 # Search String History (newest to oldest):
@@ -27,22 +27,25 @@ $
 # Registers:
 
 # File marks:
-'0  1  0  ~/manage.py
-'1  1  0  ~/requirements.txt
-'2  12  39  /etc/nginx/sites-available/hiking3
-'3  2  0  /etc/nginx/sites-available/hiking3
-'4  110318  0  /var/log/upstart/gunicorn.log
-'5  1  0  ~/hiking3.sock
-'6  11  90  /etc/init/gunicorn.conf
-'7  1  0  /etc/init/gunicorn.conf
-'8  28  45  ~/hiking3/settings.py
-'9  86  24  ~/hiking3/settings.py
+'0  1  137  ~/.netrc
+'1  1  0  ~/1.10
+'2  1  0  /etc/nginx/sites-available/hiking3
+'3  1  42  ~/editnginx.sh
+'4  1  0  ~/manage.py
+'5  1  0  ~/requirements.txt
+'6  12  39  /etc/nginx/sites-available/hiking3
+'7  2  0  /etc/nginx/sites-available/hiking3
+'8  110318  0  /var/log/upstart/gunicorn.log
+'9  1  0  ~/hiking3.sock
 
 # Jumplist (newest first):
+-'  1  137  ~/.netrc
+-'  1  0  ~/1.10
+-'  1  0  /etc/nginx/sites-available/hiking3
+-'  1  42  ~/editnginx.sh
 -'  1  0  ~/manage.py
 -'  1  0  ~/requirements.txt
 -'  12  39  /etc/nginx/sites-available/hiking3
--'  1  0  /etc/nginx/sites-available/hiking3
 -'  2  0  /etc/nginx/sites-available/hiking3
 -'  110318  0  /var/log/upstart/gunicorn.log
 -'  1  0  /var/log/upstart/gunicorn.log
@@ -133,21 +136,22 @@ $
 -'  1  0  ~/.bashrc
 -'  118  41  ~/.bashrc
 -'  1  0  ~/.bashrc
--'  1  0  ~/hiking/requirements/production.txt
--'  118  41  ~/.bashrc
--'  1  0  ~/.bashrc
--'  118  41  ~/.bashrc
 
 # History of marks within files (newest to oldest):
 
-> ~/manage.py
-	"	1	0
+> ~/.netrc
+	"	1	137
+	^	1	138
+	.	1	100
+	+	1	0
+	+	1	100
+	a	1	0
 
-> ~/requirements.txt
+> ~/1.10
 	"	1	0
 
 > /etc/nginx/sites-available/hiking3
-	"	12	39
+	"	1	0
 	^	12	40
 	.	12	40
 	+	4	0
@@ -160,6 +164,18 @@ $
 	+	11	1
 	+	13	0
 	+	12	40
+
+> ~/editnginx.sh
+	"	1	42
+	^	1	43
+	.	1	42
+	+	1	42
+
+> ~/manage.py
+	"	1	0
+
+> ~/requirements.txt
+	"	1	0
 
 > /var/log/upstart/gunicorn.log
 	"	110318	0

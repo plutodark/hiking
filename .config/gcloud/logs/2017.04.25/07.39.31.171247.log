@@ -1,0 +1,169 @@
+2017-04-25 07:39:31,278 DEBUG    root            Loaded Command Group: ['gcloud', 'init']
+2017-04-25 07:39:31,279 DEBUG    root            Running gcloud.init with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.init', usage=None, description='Initialize or reinitialize gcloud.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7fb133eefad0>, command_path=['gcloud', 'init'], configuration=None, console_only=False, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, obsolete_project_arg=None, project=None, quiet=None, skip_diagnostics=False, trace_email=None, trace_log=None, trace_token=None, user_output_enabled=None, verbosity='warning', version=None).
+2017-04-25 07:39:31,279 INFO     ___FILE_ONLY___ Welcome! This command will take you through the configuration of gcloud.
+
+
+2017-04-25 07:39:31,295 INFO     ___FILE_ONLY___ Settings from your current configuration [default] are:
+
+2017-04-25 07:39:31,296 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
+2017-04-25 07:39:31,300 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'list']
+2017-04-25 07:39:31,301 DEBUG    root            Running gcloud.config.list with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.config.list', usage=None, description='Lists all properties in your active configuration. These include the\naccount used to authorize access to the Cloud Platform, the current Cloud\nPlatform project, and the default Compute Engine region and zone, if set. See\n`gcloud topic configurations` for more information.\n\n## AVAILABLE PROPERTIES\n\n{properties}\n\n## EXAMPLES\n\nTo list the project property in the core section, run:\n\n  $ {command} project\n\nTo list the zone property in the compute section, run:\n\n  $ {command} compute/zone\n\nTo list all the properties, run:\n\n  $ {command} --all\n\nNote you cannot specify both --all and a property name.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, all=False, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7fb133dfb210>, command_path=['gcloud', 'config', 'list'], configuration=None, credential_file_override=None, document=None, filter=None, flatten=None, format=None, h=None, help=None, http_timeout=None, limit=None, log_http=None, project=None, property=None, quiet=None, sort_by=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled=None, verbosity='warning', version=None).
+2017-04-25 07:39:31,301 INFO     ___FILE_ONLY___ Your active configuration is: [default]
+
+
+2017-04-25 07:39:31,306 INFO     root            Display format "config".
+2017-04-25 07:39:31,307 INFO     ___FILE_ONLY___ [core]
+account = 2034944256-compute@developer.gserviceaccount.com
+project = hiking-155516
+
+2017-04-25 07:39:31,307 DEBUG    root            SDK update checks are disabled.
+2017-04-25 07:39:31,308 INFO     ___FILE_ONLY___ 
+
+2017-04-25 07:39:35,137 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'unset']
+2017-04-25 07:39:35,138 INFO     root            Executing: [gcloud config unset account]
+2017-04-25 07:39:35,139 DEBUG    root            Running gcloud.config.unset with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.config.unset', usage=None, description='By default, unsets the property in your active configuration only. Use the\n`--installation` flag to unset the property across all configurations. See\n`gcloud topic configurations` for more information.\n\n## AVAILABLE PROPERTIES\n\n{properties}\n\n## EXAMPLES\n\nTo unset the project property in the core section, run:\n\n  $ {command} project\n\nTo unset the zone property in the compute section, run:\n\n  $ {command} compute/zone', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7fb136302250>, command_path=['gcloud', 'config', 'unset'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, installation=False, log_http=None, project=None, property='account', quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', verbosity='none', version=None).
+2017-04-25 07:39:35,140 INFO     ___FILE_ONLY___ Unset property [core/account].
+
+2017-04-25 07:39:35,140 INFO     root            Display disabled.
+2017-04-25 07:39:35,140 DEBUG    root            SDK update checks are disabled.
+2017-04-25 07:39:35,141 INFO     root            Executing: [gcloud config unset project]
+2017-04-25 07:39:35,141 DEBUG    root            Running gcloud.config.unset with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.config.unset', usage=None, description='By default, unsets the property in your active configuration only. Use the\n`--installation` flag to unset the property across all configurations. See\n`gcloud topic configurations` for more information.\n\n## AVAILABLE PROPERTIES\n\n{properties}\n\n## EXAMPLES\n\nTo unset the project property in the core section, run:\n\n  $ {command} project\n\nTo unset the zone property in the compute section, run:\n\n  $ {command} compute/zone', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7fb136302250>, command_path=['gcloud', 'config', 'unset'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, installation=False, log_http=None, project=None, property='project', quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', verbosity='none', version=None).
+2017-04-25 07:39:35,141 INFO     ___FILE_ONLY___ Unset property [core/project].
+
+2017-04-25 07:39:35,141 INFO     root            Display disabled.
+2017-04-25 07:39:35,142 DEBUG    root            SDK update checks are disabled.
+2017-04-25 07:39:35,142 INFO     root            Executing: [gcloud config unset compute/zone]
+2017-04-25 07:39:35,143 DEBUG    root            Running gcloud.config.unset with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.config.unset', usage=None, description='By default, unsets the property in your active configuration only. Use the\n`--installation` flag to unset the property across all configurations. See\n`gcloud topic configurations` for more information.\n\n## AVAILABLE PROPERTIES\n\n{properties}\n\n## EXAMPLES\n\nTo unset the project property in the core section, run:\n\n  $ {command} project\n\nTo unset the zone property in the compute section, run:\n\n  $ {command} compute/zone', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7fb136302250>, command_path=['gcloud', 'config', 'unset'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, installation=False, log_http=None, project=None, property='compute/zone', quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', verbosity='none', version=None).
+2017-04-25 07:39:35,143 INFO     ___FILE_ONLY___ Unset property [compute/zone].
+
+2017-04-25 07:39:35,143 INFO     root            Display disabled.
+2017-04-25 07:39:35,143 DEBUG    root            SDK update checks are disabled.
+2017-04-25 07:39:35,144 INFO     root            Executing: [gcloud config unset compute/region]
+2017-04-25 07:39:35,144 DEBUG    root            Running gcloud.config.unset with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.config.unset', usage=None, description='By default, unsets the property in your active configuration only. Use the\n`--installation` flag to unset the property across all configurations. See\n`gcloud topic configurations` for more information.\n\n## AVAILABLE PROPERTIES\n\n{properties}\n\n## EXAMPLES\n\nTo unset the project property in the core section, run:\n\n  $ {command} project\n\nTo unset the zone property in the compute section, run:\n\n  $ {command} compute/zone', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7fb136302250>, command_path=['gcloud', 'config', 'unset'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, installation=False, log_http=None, project=None, property='compute/region', quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', verbosity='none', version=None).
+2017-04-25 07:39:35,144 INFO     ___FILE_ONLY___ Unset property [compute/region].
+
+2017-04-25 07:39:35,144 INFO     root            Display disabled.
+2017-04-25 07:39:35,145 DEBUG    root            SDK update checks are disabled.
+2017-04-25 07:39:35,145 INFO     ___FILE_ONLY___ Your current configuration has been set to: [default]
+
+
+2017-04-25 07:39:35,145 INFO     ___FILE_ONLY___ You can skip diagnostics next time by using the following flag:
+
+2017-04-25 07:39:35,145 INFO     ___FILE_ONLY___   gcloud init --skip-diagnostics
+
+
+2017-04-25 07:39:35,145 INFO     ___FILE_ONLY___ Network diagnostic detects and fixes local network connection issues.
+
+2017-04-25 07:39:35,145 INFO     ___FILE_ONLY___ Checking network connection...
+2017-04-25 07:39:36,064 INFO     ___FILE_ONLY___ Reachability Check passed.
+
+2017-04-25 07:39:36,064 INFO     ___FILE_ONLY___ Network diagnostic (1/1 checks) passed.
+
+
+2017-04-25 07:39:36,065 DEBUG    root            Loaded Command Group: ['gcloud', 'auth']
+2017-04-25 07:39:36,068 DEBUG    root            Loaded Command Group: ['gcloud', 'auth', 'list']
+2017-04-25 07:39:36,069 INFO     root            Executing: [gcloud auth list]
+2017-04-25 07:39:36,069 DEBUG    root            Running gcloud.auth.list with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.auth.list', usage=None, description='Lists accounts whose credentials have been obtained using `gcloud init`,\n`gcloud auth login` and `gcloud auth activate-service-account`, and shows\nwhich account is active. The active account is used by gcloud and other Cloud\nSDK tools to access Google Cloud Platform.\n\n## EXAMPLES\n\nTo list the active account name:\n\n  $ gcloud auth list --filter=status:ACTIVE --format="value(account)"\n\nTo list the inactive account names with prefix `test`:\n\n  $ gcloud auth list --filter="-status:ACTIVE account:test*" --format="value(account)"', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7fb133e31a10>, command_path=['gcloud', 'auth', 'list'], configuration=None, credential_file_override=None, document=None, filter=None, filter_account=None, flatten=None, format=None, h=None, help=None, http_timeout=None, limit=None, log_http=None, page_size=None, project=None, quiet=None, sort_by=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', verbosity='none', version=None).
+2017-04-25 07:39:36,079 INFO     root            Display disabled.
+2017-04-25 07:39:36,079 DEBUG    root            SDK update checks are disabled.
+2017-04-25 07:39:37,748 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'set']
+2017-04-25 07:39:37,749 INFO     root            Executing: [gcloud config set account 2034944256-compute@developer.gserviceaccount.com]
+2017-04-25 07:39:37,750 DEBUG    root            Running gcloud.config.set with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.config.set', usage=None, description='By default, sets the property in your active configuration only. Use the\n`--installation` flag to set the property across all configurations. See\n`gcloud topic configurations` for more information.\n\n## AVAILABLE PROPERTIES\n\n{properties}\n\n## EXAMPLES\n\nTo set the project property in the core section, run:\n\n  $ {command} project myProject\n\nTo set the zone property in the compute section, run:\n\n  $ {command} compute/zone zone3', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7fb13548c6d0>, command_path=['gcloud', 'config', 'set'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, installation=False, log_http=None, project=None, property='account', quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', value='2034944256-compute@developer.gserviceaccount.com', verbosity='none', version=None).
+2017-04-25 07:39:37,750 INFO     ___FILE_ONLY___ Updated property [core/account].
+
+2017-04-25 07:39:37,751 INFO     root            Display disabled.
+2017-04-25 07:39:37,751 DEBUG    root            SDK update checks are disabled.
+2017-04-25 07:39:37,751 INFO     ___FILE_ONLY___ You are logged in as: [2034944256-compute@developer.gserviceaccount.com].
+
+
+2017-04-25 07:39:38,540 DEBUG    root            Failed to execute projects list: <class 'apitools.base.py.exceptions.HttpError'>, HttpError accessing <https://cloudresourcemanager.googleapis.com/v1/projects?alt=json&pageSize=100>: response: <{'status': '403', 'content-length': '138', 'x-xss-protection': '1; mode=block', 'x-content-type-options': 'nosniff', 'transfer-encoding': 'chunked', 'vary': 'Origin, X-Origin, Referer', 'server': 'ESF', '-content-encoding': 'gzip', 'cache-control': 'private', 'date': 'Tue, 25 Apr 2017 07:39:38 GMT', 'x-frame-options': 'SAMEORIGIN', 'content-type': 'application/json; charset=UTF-8', 'www-authenticate': 'Bearer realm="https://accounts.google.com/", error="insufficient_scope", scope="https://www.googleapis.com/auth/cloudplatformprojects https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/cloud-platform.read-only https://www.googleapis.com/auth/cloud-platform"'}>, content <{
+  "error": {
+    "code": 403,
+    "message": "Request had insufficient authentication scopes.",
+    "status": "PERMISSION_DENIED"
+  }
+}
+>, <traceback object at 0x7fb1335ca3f8>
+2017-04-25 07:40:16,840 INFO     root            Executing: [gcloud config set project hiking-155516]
+2017-04-25 07:40:16,841 DEBUG    root            Running gcloud.config.set with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.config.set', usage=None, description='By default, sets the property in your active configuration only. Use the\n`--installation` flag to set the property across all configurations. See\n`gcloud topic configurations` for more information.\n\n## AVAILABLE PROPERTIES\n\n{properties}\n\n## EXAMPLES\n\nTo set the project property in the core section, run:\n\n  $ {command} project myProject\n\nTo set the zone property in the compute section, run:\n\n  $ {command} compute/zone zone3', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7fb13548c6d0>, command_path=['gcloud', 'config', 'set'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, installation=False, log_http=None, project=None, property='project', quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', value='hiking-155516', verbosity='none', version=None).
+2017-04-25 07:40:16,842 INFO     ___FILE_ONLY___ Updated property [core/project].
+
+2017-04-25 07:40:16,842 INFO     root            Display disabled.
+2017-04-25 07:40:16,843 DEBUG    root            SDK update checks are disabled.
+2017-04-25 07:40:16,843 INFO     ___FILE_ONLY___ Your current project has been set to: [hiking-155516].
+
+
+2017-04-25 07:40:16,883 DEBUG    root            Loaded Command Group: ['gcloud', 'compute']
+2017-04-25 07:40:16,885 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project_info']
+2017-04-25 07:40:16,993 DEBUG    root            Loaded Command Group: ['gcloud', 'compute', 'project-info', 'describe']
+2017-04-25 07:40:16,994 INFO     root            Executing: [gcloud compute project-info describe]
+2017-04-25 07:40:16,995 DEBUG    root            Running gcloud.compute.project-info.describe with Namespace(__calliope_internal_deepest_parser=ArgumentParser(prog='gcloud.compute.project-info.describe', usage=None, description='Describe the Google Compute Engine project resource.', version=None, formatter_class=<class 'argparse.HelpFormatter'>, conflict_handler='error', add_help=False), account=None, authority_selector=None, authorization_token_file=None, calliope_command=<googlecloudsdk.calliope.backend.Command object at 0x7fb13358be50>, command_path=['gcloud', 'compute', 'project-info', 'describe'], configuration=None, credential_file_override=None, document=None, flatten=None, format=None, h=None, help=None, http_timeout=None, log_http=None, project=None, quiet=None, trace_email=None, trace_log=None, trace_token=None, user_output_enabled='false', verbosity='none', version=None).
+2017-04-25 07:40:17,199 DEBUG    root            (gcloud.compute.project-info.describe) Could not fetch resource:
+ - Insufficient Permission
+Traceback (most recent call last):
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/cli.py", line 742, in Execute
+    resources = args.calliope_command.Run(cli=self, args=args)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/calliope/backend.py", line 1710, in Run
+    resources = command_instance.Run(args)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/base_classes.py", line 730, in Run
+    error_message='Could not fetch resource:')
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 118, in RaiseToolException
+    RaiseException(problems, calliope_exceptions.ToolException, error_message)
+  File "/usr/lib/google-cloud-sdk/lib/googlecloudsdk/api_lib/compute/utils.py", line 130, in RaiseException
+    errors))
+ToolException: Could not fetch resource:
+ - Insufficient Permission
+
+2017-04-25 07:40:17,346 ERROR    root            (gcloud.compute.project-info.describe) Could not fetch resource:
+ - Insufficient Permission
+
+2017-04-25 07:40:17,346 INFO     root            [compute project-info describe] has failed
+
+2017-04-25 07:40:17,346 INFO     ___FILE_ONLY___ Not setting default zone/region (this feature makes it easier to use
+[gcloud compute] by setting an appropriate default value for the
+--zone and --region flag).
+See https://cloud.google.com/compute/docs/gcloud-compute section on how to set
+default compute region and zone manually. If you would like [gcloud init] to be
+able to do this for you the next time you run it, make sure the
+Compute Engine API is enabled for your project on the
+https://console.developers.google.com/apis page.
+
+
+2017-04-25 07:40:17,347 DEBUG    root            Executing command: ['/usr/lib/google-cloud-sdk/bin/gsutil', 'config', '-n', '-o', '/home/plutodark/.boto']
+2017-04-25 07:40:20,151 DEBUG    ___FILE_ONLY___ 
+2017-04-25 07:40:20,151 DEBUG    ___FILE_ONLY___ This command will create a boto config file at /home/plutodark/.boto
+containing your credentials, based on your responses to the following
+questions.
+
+Boto config file "/home/plutodark/.boto" created. If you need to use a
+proxy to access the Internet please see the instructions in that file.
+
+2017-04-25 07:40:20,151 INFO     ___FILE_ONLY___ Created a default .boto configuration file at [/home/plutodark/.boto]. See this file and
+[https://cloud.google.com/storage/docs/gsutil/commands/config] for more
+information about configuring Google Cloud Storage.
+
+2017-04-25 07:40:20,151 INFO     ___FILE_ONLY___ Your Google Cloud SDK is configured and ready to use!
+
+
+2017-04-25 07:40:20,152 INFO     ___FILE_ONLY___ * Commands that require authentication will use 2034944256-compute@developer.gserviceaccount.com by default
+
+2017-04-25 07:40:20,152 INFO     ___FILE_ONLY___ * Commands will reference project `hiking-155516` by default
+
+2017-04-25 07:40:20,152 INFO     ___FILE_ONLY___ Run `gcloud help config` to learn how to change individual settings
+
+
+2017-04-25 07:40:20,152 INFO     ___FILE_ONLY___ This gcloud configuration is called [default]. You can create additional configurations if you work with multiple accounts and/or projects.
+
+2017-04-25 07:40:20,152 INFO     ___FILE_ONLY___ Run `gcloud topic configurations` to learn more.
+
+
+2017-04-25 07:40:20,152 INFO     ___FILE_ONLY___ Some things to try next:
+
+
+2017-04-25 07:40:20,152 INFO     ___FILE_ONLY___ * Run `gcloud --help` to see the Cloud Platform services you can interact with. And run `gcloud help COMMAND` to get help on any gcloud command.
+
+2017-04-25 07:40:20,152 INFO     ___FILE_ONLY___ * Run `gcloud topic -h` to learn about advanced features of the SDK like arg files and output formatting
+
+2017-04-25 07:40:20,153 INFO     root            Display format "default".
+2017-04-25 07:40:20,154 DEBUG    root            SDK update checks are disabled.
+2017-04-25 07:40:20,164 DEBUG    root            Metrics reporting process started...
