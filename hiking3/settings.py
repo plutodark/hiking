@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'users',
 ]
 
 MIDDLEWARE = [
@@ -83,7 +85,7 @@ DATABASES = {
 DATABASES = {
     'default':{
         'ENGINE':'django.db.backends.postgresql_psycopg2',
-        'NAME': 'test_db',
+        'NAME': 'test_db2',
         'USER': 'postgres',
         'PASSWORD': 'Testing.123',
         'HOST': '35.185.157.48',
@@ -128,3 +130,31 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# Customised fields
+AUTH_USER_MODEL = 'users.User'
+
+# REST AUTH
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_jwt.authentication.JSONWebTokenAuthentication',
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.BasicAuthentication',
+    ),
+}
+
+# EMAIL MAILGUN
+#EMAIL_BACKEND = 'django_mailgun.MailgunBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+MAILGUN_ACCESS_KEY = 'key-910e52e65078b1b749a7211456d14f90'
+MAILGUN_SERVER_NAME = 'https://api.mailgun.net/v3/dev.hikgroup.com'
+EMAIL_HOST = 'smtp.mailgun.org'
+EMAIL_PORT = 587
+EMAIL_HOST_USER = 'postmaster@dev.hikgroup.com'
+EMAIL_HOST_PASSWORD = '0e52c3c014480ca036ec5b207fb9daaf'
+EMAIL_USE_TLS = True
+
+
