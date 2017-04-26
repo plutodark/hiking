@@ -68,3 +68,5 @@ mailhog
 .virtualenvs
 .config
 .cache
+.viminfo
+.lesshst
