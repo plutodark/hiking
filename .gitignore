@@ -67,3 +67,4 @@ mailhog
 
 .virtualenvs
 .config
+.cache
